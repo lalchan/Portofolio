@@ -1,0 +1,35 @@
+.main{
+	width: 60%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	display:flex;
+	flex-direction: row;
+	background: rgba(39, 39, 39, 0.719);
+	border-radius: 10px 0 0 10px;
+}
+
+.home {
+	margin-left: .5em;
+	animation-name: slideRight;
+	animation-duration: 2s;
+}
+
+.selector{
+	left: 0;
+	width: 40%;
+	border-radius: 10px 0 0 10px;
+	background: linear-gradient(to top right, rgba(69, 58, 131, 0.342), rgba(136, 39, 39, 0.342));
+}
+.content{
+	left:0;
+	width: 60%;
+}
+
+@keyframes slideRight {
+	from {transform: translate(-200%,0);}
+	to {transform: translate(0,0);}
+}
+

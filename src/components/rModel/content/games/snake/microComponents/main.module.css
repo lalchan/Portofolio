@@ -1,0 +1,20 @@
+
+.grey{
+	min-height: 90%;
+	min-width: 90%;
+	padding: 5%;
+	background-color: inherit;
+}
+.black{
+	min-height: 90%;
+	min-width: 90%;
+	padding: 5%;
+	background-color: black;
+}
+.red{
+	min-height: 90%;
+	min-width: 90%;
+	padding: 5%;
+	background-color: red;
+	border-radius: 100%;
+}

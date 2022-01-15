@@ -1,0 +1,13 @@
+.App {
+	text-align: center;
+}
+
+.AppHeader {
+	min-height: 100vh;
+	background: linear-gradient(to bottom right, rgba(78, 111, 173, 0.925), rgba(189, 91, 91, 0.6));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
